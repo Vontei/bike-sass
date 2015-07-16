@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  div(id='innerBody')
+    img(src='http://www.clker.com/cliparts/8/d/6/3/1197148497498107931lunanaut_Bicycle_Sign_Symbol.svg.hi.png')
+    h1 Bike Repair
+    p Fix
+    form
+      div.row
+        div.block
+          label First
+          br
+          input(type='text')
+        div.block
+          label Last
+          br
+          input(type='text')
+      div.row
+        div.block
+          label Make
+          br
+          input(type='text')
+        div.block 
+          label Model
+          br
+          input(type='text')
+      div.row
+        div.block
+          label Service
+          br
+          select
+            option Scrub n Go $15
+            option Basic Tune $25
+            option Full Tune $40
+            option Premium Tune $60
+            option Rebuild $ 90
+            option Custom Parts $TBD
+      div.row
+        div.block
+          label Message to the Mechanics
+          br
+          textarea
+      div.row
+        div.block
+          input(id='submit' type='submit' value='GO')

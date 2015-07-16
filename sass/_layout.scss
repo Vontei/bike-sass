@@ -1,0 +1,46 @@
+body{
+  background-image: url('http://creativity103.com/collections/Wood/wood.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#innerBody{
+  width:750px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  margin-left: 5em;
+}
+
+.row .block{
+  display: inline-block;
+}
+
+.row{
+  text-align: center;
+ }
+
+ textarea{
+   width: 610px;
+   height: 100px;
+ }
+
+input{
+  width: 300px;
+  height: 25px;
+}
+
+select{
+  width: 605px;
+}
+
+.row{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
